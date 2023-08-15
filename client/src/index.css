@@ -1,0 +1,87 @@
+#root{
+    display: flex;
+    flex-direction: row;
+}
+
+.input-file{
+    width: 35%;
+    height: 50vh;
+    border: 1px solid black;
+    background-color: rgb(177, 189, 152);
+}
+
+button{
+    margin: 5px;
+    cursor: pointer;
+    background-color: thistle;
+}
+
+.form-data{
+    padding: 10px;
+    width: 95%;
+    background-color: silver;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.form-data>div{
+    flex:1;
+    border: 1px solid black;
+    margin: 7px;
+    padding: 5px;
+}
+
+.form-data>div:nth-child(2){
+    background-color: wheat;
+}
+
+.form-data input{
+    font-size: 1.2rem;
+}
+
+.form-data select{
+    font-size: 1.2rem;
+}
+
+.alert{
+    background-color: red;
+}
+
+.files{
+    width: 90%;
+    height: 60vh;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.image,.video{
+    margin: 10px;
+    width: 50%;
+    border: 1px solid black;
+}
+.image{
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
+video{
+    width: 99%;
+    height: 99%;
+    object-fit: cover;
+}
+
+.video{
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(211, 204, 211);
+}
